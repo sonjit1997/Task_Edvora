@@ -3,7 +3,6 @@ import Sidebar from "../Component/Sidebar";
 import "../Style/Home.css";
 import { Customer, Orders, Products } from "../Api/Api";
 import MaterialTable from "@material-table/core";
-// import { Modal, Button } from "react-bootstrap";
 import { ExportPdf } from "@material-table/exporters";
 
 const Home = () => {
@@ -42,7 +41,7 @@ const Home = () => {
       <div className="all min-vh-100" id="night">
         <div className="row">
           <div className="col-1">
-         
+           {/* <Sidebar /> */}
           </div>
           <div className="container col m-2  ">
             <h1 className="text-center" id="main">
@@ -106,9 +105,8 @@ const Home = () => {
               </div>
             </div>
 
-            <br />
-
-            {user ? (
+         <div id="dds">
+         {user ? (
               <MaterialTable
                 data={customerDetails}
                 columns={[
@@ -139,6 +137,9 @@ const Home = () => {
             ) : (
               ""
             )}
+            
+
+           
             {product ? (
               <MaterialTable
                 data={productsDetails}
@@ -206,6 +207,9 @@ const Home = () => {
             ) : (
               ""
             )}
+         </div>
+
+            
           </div>
         </div>
       </div>
