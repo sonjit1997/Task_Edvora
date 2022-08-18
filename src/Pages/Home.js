@@ -41,7 +41,7 @@ const Home = () => {
       <div className="all min-vh-100" id="night">
         <div className="row">
           <div className="col-1">
-           {/* <Sidebar /> */}
+           <Sidebar />
           </div>
           <div className="container col m-2  ">
             <h1 className="text-center" id="main">
@@ -106,7 +106,7 @@ const Home = () => {
             </div>
 
          <div id="dds">
-         {/* {user ? (
+         {user ? (
               <MaterialTable
                 data={customerDetails}
                 columns={[
@@ -206,7 +206,7 @@ const Home = () => {
               />
             ) : (
               ""
-            )} */}
+            )}
          </div>
 
             
