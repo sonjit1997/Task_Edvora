@@ -42,7 +42,7 @@ const Home = () => {
       <div className="all min-vh-100" id="night">
         <div className="row">
           <div className="col-1">
-            <Sidebar />
+         
           </div>
           <div className="container col m-2  ">
             <h1 className="text-center" id="main">
