@@ -106,7 +106,7 @@ const Home = () => {
             </div>
 
          <div id="dds">
-         {user ? (
+         {/* {user ? (
               <MaterialTable
                 data={customerDetails}
                 columns={[
@@ -206,7 +206,7 @@ const Home = () => {
               />
             ) : (
               ""
-            )}
+            )} */}
          </div>
 
             
