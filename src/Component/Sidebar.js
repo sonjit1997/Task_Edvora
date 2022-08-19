@@ -29,7 +29,7 @@ const Sidebar = () => {
    
     </CNavItem>
     <CNavItem href="#" className='item' onClick={userDetail}>
-     <i className='bi bi-person-lines-fill'></i>  <h6 className='mx-5 my-1'>User Profile</h6>
+     <i className='bi bi-person-lines-fill'></i>  <h6 className='mx-5 my-1'>Shop Details</h6>
     </CNavItem>
     <CNavItem href="#" className='text-center' onClick={logoutFn}>
      <i className='bi bi-box-arrow-in-left '></i> <h6 className='mx-5 my-1'>Log Out</h6>
